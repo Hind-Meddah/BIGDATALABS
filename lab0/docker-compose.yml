@@ -13,7 +13,7 @@
           - 9000:9000
           - 8080:8080
         volumes:
-          - C:C:\Users\HIND\BigdataLabs\lab0\shared_volume:/shared_volume
+          - C:\Users\HIND\BigdataLabs\lab0\shared_volume:/shared_volume
         networks:
           - hadoop
         tty: true
